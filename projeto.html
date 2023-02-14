@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estante Virtual</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seu nivel de leitor é: <span id="levelLeitor"></span></h1>
+    <h1>Estante Virtual</h1>
+    <button onclick="cadLivro()">Cadastrar um novo livro</button>
+    <button onclick="pegarLivro()">Pegar um livro</button>
+    <button onclick="devolverLivro()">Devolver um livro</button>
+    <h2>Livros disponiveis:</h2>
+    <h3>Total de livros disponiveis: <span id="totalDisp"></span></h3>
+    <h3 id="disponiveis"></h3>
+    <h2>Livros para serem devolvidos:</h2>
+    <h3>Total de livros pendentes <span id="totalPend"></span> e total de devoluções <span id="totalDev"></span></h3>
+    <h3 id="pendentes"></h3>
+
+    <script src="projeto.js"></script>
+</html>
